@@ -215,6 +215,7 @@ Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
 simplegeneric==0.8.1
 singledispatch @ file:///tmp/build/80754af9/singledispatch_1614366001199/work
 six @ file:///C:/ci/six_1605205426665/work
+sklearn==0.0
 sniffio @ file:///C:/ci/sniffio_1614030522573/work
 snowballstemmer @ file:///tmp/build/80754af9/snowballstemmer_1611258885636/work
 sortedcollections @ file:///tmp/build/80754af9/sortedcollections_1611172717284/work

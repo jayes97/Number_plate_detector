@@ -1,3 +1,4 @@
+python==3.7.12
 absl-py==0.14.0
 astunparse==1.6.3
 cached-property==1.5.2
@@ -51,4 +52,4 @@ Werkzeug==2.0.1
 wincertstore==0.2
 wrapt==1.12.1
 zipp==3.5.0
-python-3.7.11
+

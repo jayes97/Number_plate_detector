@@ -3,7 +3,7 @@ Detects numbers of number plate
 
 # Data Gathering
 All Data is gathered from Kaggle
-1. A pretrained xml file to detect Region of Interest (number plate) is gathered frome [here](https://www.kaggle.com/sarthakvajpayee/ai-indian-license-plate-recognition-data)
+1. A pretrained xml file to detect Region of Interest (number plate) is gathered frome [here](https://www.kaggle.com/sarthakvajpayee/ai-indian-license-plate-recognition-data?select=indian_license_plate.xml)
 2. Train and validation Image data is taken from [here](https://www.kaggle.com/nainikagaur/dataset-characters)
 
 **Model is trained using MobileNet V2**

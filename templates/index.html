@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>    
+    <div><h1 class="text-center">Text Predictioner</h1></div>
+        <div class="col-lg-4 ">
+            <form class="p-3 text-center", action="/predict", method="post", enctype="multipart/form-data">
+                <div class="form-group">
+                    <input class="form-control" type="file" name="imagefile">
+                    <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
+                </div>
+            </form>
+        </div>
+        <div>
+            {% if prediction %}
+            <h2 class="text-center">Car number is {{ prediction }}</h2>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
